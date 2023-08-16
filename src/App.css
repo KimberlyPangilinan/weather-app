@@ -60,6 +60,7 @@ span{
 .details{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .details span{
   font-size: 4em;
