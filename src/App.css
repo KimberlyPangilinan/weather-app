@@ -70,6 +70,7 @@ h1{
 }
 
 .header{
+  flex-wrap: wrap;
   display:flex;
   justify-content: space-between;
 }
@@ -85,8 +86,10 @@ h1{
 .forecast .item ul, .forecast .item{
   display: flex;
   gap:2em;
+  flex-wrap: wrap;
 }
 .forecast .item{
+  
   border-bottom: 1px solid rgba(139, 139, 139, 0.605);
   padding:0.5em;
 }
